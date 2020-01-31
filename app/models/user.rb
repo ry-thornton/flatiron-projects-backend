@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-    has_many :projects, through: :posts
+    has_many :projects
 end
